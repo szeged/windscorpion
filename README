@@ -1,0 +1,32 @@
+These extra JS tests can be used to extend the Sunspider performance
+benchmark incuded in Webkit. Simply copy these files to:
+
+  WebKit/SunSpider/tests
+
+directory and add these tests to the LIST file.
+
+You can execute the tests by the offical script:
+
+  WebKit/WebKitTools/Scripts/run-sunspider
+
+-------------------------------------------------------------------------------
+
+One line descriptions about the benchmarks:
+
+WS-IEEE754Conv.js  - convert hexadecimal memory dumps to floating point numbers
+WS-bubbleSort.js   - bubble short an array
+WS-des.js          - des encoding a string
+WS-dicePoker.js    - dice poker using 5, six sided dices
+WS-email.js        - validate email addresses
+WS-factor.js       - number factoring
+WS-floyd.js        - Floyd-Warshal algorithm
+WS-formatNumber.js - format floating point numbers
+WS-genetic.js      - Solving the traveling-salesman problem with genetic algorithm
+WS-huffman.js      - Huffman coding
+WS-longFact.js     - the decimal numbers are stored in strings
+WS-quickSort.js    - quick sort algorithm
+WS-randPrime.js    - fast find a prime number in the given range
+WS-redBlackTree.js - a red-black tree implementation (insert, find, remove)
+WS-solve.js        - very simple linear equation solver
+WS-wordreplace.js  - replacing whole words
+WS-xmlParser.js    - parsing XML tree
